@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     _deviceheight = MediaQuery.of(context).size.height;
     _devicewidth = MediaQuery.of(context).size.width;
-    // print(_newTaskContent);
+
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: _deviceheight * 0.15,
